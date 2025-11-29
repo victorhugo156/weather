@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container-hero">
+            <div class="container-header">
+                <p class="title">Explore Weather Forecasts</p>
+                <div class="container-search">
+                    <input class="input-city" placeholder="City Name">
+                    <button class="btn-search" id="btn">
+                        <img class="img-search" src="https://www.svgrepo.com/show/488200/find.svg"
+                            alt="magnifying glass image">
+                    </button>
+                </div>
+                <p class="city"></p>
+
+            </div>
+        </div>
+        <div class="accordion">
+            <!------------- Section Cloudy Input 1 -------------->
+
+            <section class="accordion--item section-cloudy" id="one">
+                <div class="date">
+                    <p class="week-day">Tue</p>
+                    <p class="day">12 Apr</p>
+                </div>
+
+                <div class="container-temp-readings">
+                    <div class="temp">
+                        <p class="temp-status">CLoudy</p>
+                        <div class="temp--values">
+                            <p class="max-temp-up">24°</p>
+                            <p class="min-temp-up">16°</p>
+                        </div>
+                    </div>
+
+                    <div class="container-card-temp-readings">
+                        <div class="card-temp-readings">
+                            <img src="./imgs/wind.svg" alt="wind icon" >
+                            <p class="wind-speed">23km</p>
+                            <p id="condition-wind">Wind</p>
+                        </div>
+
+                        <div class="card-temp-readings">
+                            <img src="./imgs/sunrise.svg" alt="sunrise icon">
+                            <p class="humidity-percentage">5am</p>
+                            <p id="condition-humidity">sunrise</p>
+                        </div>
+
+                        <div class="card-temp-readings">
+                            <img src="./imgs/sunset.svg" alt="sunset icon">
+                            <p class="rainy-percentage">6pm</p>
+                            <p id="condition-rain">sunset</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="bottom-temp-reading">
+                    <p>Temp:</p>
+                    <p class="current-temp">16°</p>
+                </div>
+            </section>
+
+            <!------------- Section Sunny Input 2 -------------->
+
+            <section class="accordion--item section-sunny " id="two">
+                <div class="date">
+                    <p class="week-day">Tue</p>
+                    <p class="day">12 Apr</p>
+                </div>
+
+                <div class="container-temp-readings">
+                    <div class="temp">
+                        <p class="temp-status">CLoudy</p>
+                        <div class="temp--values">
+                            <p class="max-temp-up">24°</p>
+                            <p class="min-temp-up">16°</p>
+                        </div>
+                    </div>
+
+                    <div class="container-card-temp-readings">
+                        <div class="card-temp-readings">
+                            <img src="./imgs/wind.svg" alt="wind image">
+                            <p class="wind-speed">23km</p>
+                            <p>Wind</p>
+                        </div>
+
+                        <div class="card-temp-readings">
+                            <img src="./imgs/sunrise.svg" alt="sunrise icon">
+                            <p class="humidity-percentage">5am%</p>
+                            <p>sunrise</p>
+                        </div>
+
+                        <div class="card-temp-readings">
+                            <img src="./imgs/sunset.svg" alt="sunset icon">
+                            <p class="rainy-percentage">6pm</p>
+                            <p>sunset</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="bottom-temp-reading">
+                    <p>Temp:</p>
+                    <p class="current-temp">16°</p>
+                </div>
+            </section>
+
+            <!------------- Section Rainy Input 3 -------------->
+
+            <section class="accordion--item section-rainy" id="three">
+                <div class="date">
+                    <p class="week-day">Tue</p>
+                    <p class="day">12 Apr</p>
+                </div>
+
+                <div class="container-temp-readings">
+                    <div class="temp">
+                        <p class="temp-status">CLoudy</p>
+                        <div class="temp--values">
+                            <p class="max-temp-up">24°</p>
+                            <p class="min-temp-up">16°</p>
+                        </div>
+                    </div>
+
+                    <div class="container-card-temp-readings">
+
+                        <div class="card-temp-readings">
+                            <img src="./imgs/wind.svg" alt="wind image">
+                            <p class="wind-speed">23km</p>
+                            <p>Wind</p>
+                        </div>
+
+                        <div class="card-temp-readings">
+                            <img src="./imgs/sunrise.svg" alt="sunrise icon">
+                            <p class="humidity-percentage">5pm</p>
+                            <p>sunrise</p>
+                        </div>
+
+                        <div class="card-temp-readings">
+                            <img src="./imgs/sunset.svg" alt="sunset icon">
+                            <p class="rainy-percentage">6pm</p>
+                            <p>sunset</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="bottom-temp-reading">
+                    <p>Temp:</p>
+                    <p class="current-temp">16°</p>
+                </div>
+            </section>
+
+            <!------------- Section Thunder Storm Input 4 -------------->
+
+            <section class="accordion--item section-thunderStorm" id="four">
+                <div class="date">
+                    <p class="week-day">Tue</p>
+                    <p class="day">12 Apr</p>
+                </div>
+
+                <div class="container-temp-readings">
+
+                    <div class="temp-status">
+                        <div class="temp">
+                            <p class="temp-status">CLoudy</p>
+                            <div class="temp--values">
+                                <p class="max-temp-up">24°</p>
+                                <p class="min-temp-up">16°</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-card-temp-readings">
+
+                        <div class="card-temp-readings">
+                            <img src="./imgs/wind.svg" alt="wind image">
+                            <p class="wind-speed">23km</p>
+                            <p>Wind</p>
+                        </div>
+
+                        <div class="card-temp-readings">
+                            <img src="./imgs/sunset.svg" alt="humidity image">
+                            <p class="humidity-percentage">5am</p>
+                            <p>sunrise</p>
+                        </div>
+
+                        <div class="card-temp-readings">
+                            <img src="./imgs/sunset.svg" alt="sunset icon">
+                            <p class="rainy-percentage">6pm</p>
+                            <p>sunset</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="bottom-temp-reading">
+                    <p>Temp:</p>
+                    <p class="current-temp">16°</p>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
